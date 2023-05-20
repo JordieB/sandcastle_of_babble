@@ -28,25 +28,25 @@ To use SandcastleOfBabble, follow these steps:
 
 1. Install system dependencies by running the following command in the project directory:
 
-```bash
-./install_dependencies.sh
-```
+.. code-block:: bash
+
+    ./install_dependencies.sh
 
 This will install the necessary system-level package `python3-pyaudio`.
 
 2. Set up the Python environment and install project dependencies using Poetry. Run the following command:
 
-```bash
-poetry install
-```
+.. code-block:: bash
+
+    poetry install
 
 This will create a virtual environment and install the required Python packages.
 
 3. Once the dependencies are installed, you can run SandcastleOfBabble by navigating to the project directory and executing the following command:
 
-```bash
-python -m sandcastle_of_babble.cli --pdf /path/to/your/pdf --mp3 /path/to/output/mp3
-```
+.. code-block:: bash
+
+    python -m sandcastle_of_babble.cli --pdf /path/to/your/pdf --mp3 /path/to/output/mp3
 
 Replace `/path/to/your/pdf` with the path to the PDF file you wish to convert, and `/path/to/output/mp3` with the desired output path for the resulting MP3 file.
 
@@ -55,10 +55,9 @@ Running Tests
 
 To run tests, navigate to the project directory and run the following command:
 
-```bash
-pytest
-```
+.. code-block:: bash
 
+    pytest
 
 This will execute all tests within the `tests` directory.
 
